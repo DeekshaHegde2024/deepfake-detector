@@ -1,7 +1,5 @@
 __pycache__/
 *.pyc
-*.pkl
-*.pt
 *.mp4
 *.zip
 *.exe
