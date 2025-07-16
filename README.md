@@ -11,5 +11,3 @@ A powerful deepfake detection pipeline combining **media analysis**, **graph-bas
 - 💬 **Sentiment Analysis:** Uses video metadata to infer suspicious tone or anomalies.
 - 🤖 **Bot Detection:** Flags suspected bot-driven behavior from synthetic user simulation.
 - 🧩 **Chrome Extension:** Easily analyze any YouTube video while browsing.
-
-
