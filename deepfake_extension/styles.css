@@ -1,0 +1,82 @@
+:root {
+  --bg-color: #121212;
+  --fg-color: #ffffff;
+  --accent-color: #00d1b2;
+  --danger-color: #ff3860;
+  --border-color: #2c2c2c;
+  --font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  width: 300px;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.score-section {
+  margin-bottom: 16px;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: #1e1e1e;
+}
+
+.score-title {
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.score-value {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+.danger {
+  color: var(--danger-color);
+}
+
+.bot-flag {
+  padding: 6px 12px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #ff386011;
+  color: var(--danger-color);
+  border: 1px solid var(--danger-color);
+}
+
+button {
+  background-color: var(--accent-color);
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 12px;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #00b89c;
+}
+
+.footer {
+  margin-top: 16px;
+  font-size: 0.75rem;
+  color: #888;
+  text-align: center;
+}

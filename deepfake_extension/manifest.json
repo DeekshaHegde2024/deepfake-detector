@@ -1,0 +1,13 @@
+{ 
+  "manifest_version": 3,
+  "name": "Deepfake Detector",
+  "version": "1.0",
+  "description": "Check if a YouTube video might be fake.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ]
+}
